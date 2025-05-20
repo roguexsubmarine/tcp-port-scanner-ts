@@ -1,0 +1,17 @@
+{
+  "name": "tcpscan",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/scanner.js",
+  "bin": {
+    "tcpscan": "dist/scanner.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.19",
+    "commander": "^14.0.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
